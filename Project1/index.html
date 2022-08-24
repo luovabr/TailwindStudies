@@ -6,14 +6,14 @@
   <title>Tail Listing</title>
   <link href="dist/css/output.css" rel="stylesheet">
 </head>
-<body">
+<body>
   <nav>
-    <div class="w-9/12 mx-auto py-5 flex justify-between items-center">
+    <div class="w-9/12 mx-auto py-5 flex justify-between items-center font-nun">
       <div>
         <a href="#" class="text-lg">Tail Listing</a>
       </div>
       <div>
-        <button class="py-2 px-4 rounded-md border border-amber-500 text-amber-500 bg-transparent hover:bg-amber-500 hover:text-white">
+        <button class="py-2 px-4 rounded-md border border-gray-500 text-gray-500 bg-transparent hover:bg-gray-500 hover:text-white">
           Add Listing
         </button>
       </div>
@@ -23,5 +23,33 @@
       </div>
     </div>
   </nav>
+  <div class="relative h-screen">
+    <img src="./src/assets/images/hero/hero_4.jpg" alt="" class="h-full w-full object-cover">
+    <div class="absolute inset-0 bg-black/50">
+    </div>
+    <div class="absolute inset-0 h0full w-full">
+      <div class="flex min-h-full w-full items-center justify-center">
+        <div>
+          <div class="text-white text-center mb-4">
+            <p class="text-4xl capitalize font-bold mb-4 font-comf">Discover cars that people love</p>
+            <p class="text-lg"> We will help you to find the best cars in the World.</p>
+          </div>
+          <div class="flex gap-5">
+            <div>
+              <input type="text" placeholder="location" class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+            </div>
+            <div>
+              <input type="text" placeholder="I'm Looking for..." class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+            </div>
+            <div>
+              <button class="rounded-md w-30 py-3 px-6 bg-gray-500 text-lg text-white hover:bg-gray-600">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
