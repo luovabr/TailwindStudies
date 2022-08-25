@@ -1,8 +1,8 @@
 # Railwind
 
-npm install -D tailwindcss
-npx tailwindcss init
-npx tailwindcss -i ./src/css/input.css -o ./dist/css/utput.css --watch
+npm install -D tailwindcss <br />
+npx tailwindcss init <br />
+npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch <br />
 
 # Figma
 

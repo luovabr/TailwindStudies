@@ -1,3 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /Project1/node_modules
+/Project2/node_modules
+/Project3/node_modules
